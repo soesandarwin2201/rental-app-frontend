@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter } from "react-router-dom";
-import MiniNavbar from './components/Navbar/miniNavbar';
+import Navbar from './components/Navbar/Navbar';
 import './index.css';
 
 const App = () => {
   return ( 
     <BrowserRouter>
-    <MiniNavbar />
+    <Navbar />
     </BrowserRouter>
    );
 }
