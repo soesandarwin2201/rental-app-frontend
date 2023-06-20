@@ -5,17 +5,14 @@ import Header from './components/Header/Header';
 import RentPage from './Pages/Rent/Rent';
 import './index.css';
 
-const App = () => {
-  return ( 
-    <BrowserRouter>
-    <div className='nav-section'>
-    <Navbar />
-    <Header />
+const App = () => (
+  <BrowserRouter>
+    <div className="nav-section">
+      <Navbar />
+      <Header />
     </div>
     <RentPage />
-    </BrowserRouter>
-   );
-}
- 
-export default App;
+  </BrowserRouter>
+);
 
+export default App;
