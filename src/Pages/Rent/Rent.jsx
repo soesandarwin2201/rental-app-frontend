@@ -1,10 +1,13 @@
 import React from 'react';
+import Map from '../../components/Map/Map';
+import HomeList from '../../components/HouseList/HomeList';
+import './rent.css';
 
 const RentPage = () => (
   <>
-    <section className="mx-auto w-full grid gap-3 grid-cols-1 md:grid-cols-2 mt-2">
-      <div className="md:w-1/2">Hello</div>
-      <div className="md:w-1/2">World</div>
+    <section className="rent-section">
+      <div className="flex-map"><Map /></div>
+      <div className="flex-home-list"><HomeList /></div>
     </section>
 
   </>
